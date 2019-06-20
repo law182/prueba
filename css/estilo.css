@@ -1,0 +1,145 @@
+	
+  .site-header{
+   
+  	background-image: url(../img/goku2.png);
+  	background-size: auto;
+  	background-color:transparent;
+  	background-repeat: no-repeat;/*pore default odas las imagenes se repiten asi que se utiliza esta propiedad para que no se repita*/
+  	background-position: center center;/*para centrar*/
+  	background-size: cover;/*va a hacer que se llene tanto de altura como ancho el espacio con la imagen*/
+  	height: 40rem;/*con esto se fija la altura 600 pixeles es igual a 60 rem*/}
+
+  .trasero{
+  	background-image: url(../img/cielo.jpg);
+  	background-position: center center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  }
+  .sinpunt{
+  	list-style: none;
+  }
+
+@media(min-width: 768px) /**aqui se especifica el tamaño con
+esta se adapta el tamaño y el orden del contenido cuando la ventana es pequeña o grande sin que se vea deforme o feo*/
+{
+.navegacion{
+color: #ffffff;
+	text-decoration: none;
+	font-size: 1.8rem; /**=18px**/
+	margin-right: 2rem; /*20px*/
+	list-style: none;
+
+}
+  .navegacion a{
+  	
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.8rem; /**=18px**/
+	margin-right: 2rem; /*20px*/
+}
+
+.navegacion a:hover
+{
+	color:#E64435;
+
+}
+
+ 
+.navegacion a:last-of-type 
+{
+	margin:0;
+}
+.servicios/*padre*/{
+	display: flex;
+    justify-content: space-around;
+}
+
+/*hijo*/
+.icono{
+
+flex-basis: calc(33.3%- 1rem);/*medida de cada elemento*/ /*es ejor utilizar porcenajes, esto por lo de responcive*/
+text-align: center;
+padding: 0;
+margin-right: 2rem;
+
+
+}
+}
+.cuadro{
+	display: flex;
+	justify-content: space-around;
+	padding: 3rem;
+
+}
+.textoscuadro{
+display: flex;
+font-family: sans-serif; 
+font-size: 18px; 
+font-weight: 400; 
+color: #01090F; 
+background:transparent;
+
+}
+
+	 
+.centro{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif; 
+font-size: 30px;
+}
+.centro h1:hover
+{
+	color:#ffffff;
+
+}	
+
+
+/*index*/
+.contenedor{             /*Padre*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	
+	
+}
+.boton-personalizado { 
+   /*hijo*/
+
+
+text-decoration:none;
+font-weight:600;
+font-size:20px;
+color:#ffffff;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:40px;
+padding-right:40px;
+background-color:#005BBB;
+border-radius: 68px 28px 28px 141px;
+border-radius: 68px 28px 28px 141px;
+border-radius: 68px 28px 28px 141px;
+border: 45px solid #000000;
+
+}
+
+
+ .boton-personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+     opacity: 0.6;
+  }
+@media screen and (max-width:600px){
+ img {
+ max-width:290px;
+ }
+
+ #container{
+ width:auto;
+ } 
+
+ header h1 a{
+ width:auto;
+ }
+}
