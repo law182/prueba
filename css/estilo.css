@@ -1,7 +1,7 @@
 	
   .site-header{
    
-  	background-image: url(../img/goku2.png);
+  	background-image: url(../img/butters.png);
   	background-size: auto;
   	background-color:transparent;
   	background-repeat: no-repeat;/*pore default odas las imagenes se repiten asi que se utiliza esta propiedad para que no se repita*/
@@ -23,7 +23,7 @@
 esta se adapta el tamaño y el orden del contenido cuando la ventana es pequeña o grande sin que se vea deforme o feo*/
 {
 .navegacion{
-color: #ffffff;
+color: 	#000000;
 	text-decoration: none;
 	font-size: 1.8rem; /**=18px**/
 	margin-right: 2rem; /*20px*/
@@ -32,7 +32,7 @@ color: #ffffff;
 }
   .navegacion a{
   	
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	font-size: 1.8rem; /**=18px**/
 	margin-right: 2rem; /*20px*/
