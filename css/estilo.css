@@ -1,6 +1,6 @@
 	
   .site-header{
-   
+  display: flex;
   	background-image: url(../img/butters.png);
   	background-size: auto;
   	background-color:transparent;
@@ -18,40 +18,39 @@
   		background-repeat: no-repeat;
   		background-size: cover;
   }
-  .sinpunt{
-  	list-style: none;
-  }
+
 
 @media(min-width: 768px) /**aqui se especifica el tamaño con
 esta se adapta el tamaño y el orden del contenido cuando la ventana es pequeña o grande sin que se vea deforme o feo*/
 {
-.navegacion{
-color: 	#000000;
+.nave{
+	 
+     color:#00ffff;
 	text-decoration: none;
 	font-size: 1.8rem; /**=18px**/
 	margin-right: 2rem; /*20px*/
 	list-style: none;
 
 }
-  .navegacion a{
-  	
-	color: #000000;
-	text-decoration: none;
-	font-size: 1.8rem; /**=18px**/
-	margin-right: 2rem; /*20px*/
-}
+  
 
-.navegacion a:hover
+.nave a:hover
 {
 	color:#E64435;
-
+    text-decoration: none;
 }
 
  
-.navegacion a:last-of-type 
+.nave a:last-of-type 
 {
 	margin:0;
 }
+.sinpunt{
+	display: flex;
+  	list-style: none;
+  	text-decoration: none;
+  	 
+  }
 
 .servicios/*padre*/{
 	display: flex;
