@@ -7,10 +7,11 @@
   	background-repeat: no-repeat;/*pore default odas las imagenes se repiten asi que se utiliza esta propiedad para que no se repita*/
   	background-position: center center;/*para centrar*/
   	background-size: cover;/*va a hacer que se llene tanto de altura como ancho el espacio con la imagen*/
-  	height:60rem;/*con esto se fija la altura en automatico para que no se desborde el contenido pero si se quiere fijar una medida se pone en vez de "auto"  por ejemplo:; 600 pixeles es igual a 60 rem*/
+  	height: 60rem;/*con esto se fija la altura en automatico para que no se desborde el contenido pero si se quiere fijar una medida se pone en vez de "auto"  por ejemplo:; 600 pixeles es igual a 60 rem*/
     border-radius:3rem;
     box-shadow: 2px 2px 2px #777, 0px 0px 35px 0px #7a1e00; 
-	transition: all 0.1s ease 0s;	}
+	transition: all 0.1s ease 0s;	
+	margin:1.5rem;}
     
   .trasero{
   	background-image: url(../img/yute.jpeg);
@@ -181,6 +182,8 @@ box-shadow: 2px 2px 2px #777, 0px 0px 35px 0px #7a1e00;
 .imagen2{
 	display: flex;
 	justify-content: space-around;
+	width: 100%;
+    height: auto;
 }
  
 
@@ -189,13 +192,4 @@ box-shadow: 2px 2px 2px #777, 0px 0px 35px 0px #7a1e00;
 
 
 
-@media screen and (max-width:600px){
- img {
- max-width:290px;
- }
-
- #container{
- width:auto;
- } 
  
-}
